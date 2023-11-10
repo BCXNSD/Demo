@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define all(x) (x).begin(),(x).end()
+
+void solve(){
+    
+}
+int main(){
+    ios::sync_with_stdio(false),cin.tie(nullptr);
+    
+    queue<int> q;
+    for(int i=0;i<20;i++) q.push(i);
+    while(!q.empty()){
+        cout<<q.front()<<' ';
+        q.pop();
+    }
+    return 0;
+}
